@@ -156,6 +156,39 @@ section {
   margin-bottom: 2em;
 }
 
+.Footer {
+  background: #303841;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 2em;
+}
+
+.Footer a {
+  color: white;
+  display: block;
+  padding: 0 1em;
+}
+
+.Footer ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.Footer .logo {
+  color: #00ADB5;
+  font-weight: bold;
+}
+
+.social-footer {
+  display: -ms-grid;
+  display: grid;
+}
+
 @media only screen and (min-width: 800px) {
   .featured, .portfolio {
     text-align: left;
