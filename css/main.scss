@@ -31,6 +31,7 @@ header{
     display: flex;
     justify-content: space-between;
     padding: 2em;
+    margin-left: 30px;
 
     .logo{
         color:#00ADB5;
@@ -98,11 +99,12 @@ section{
 .skills{
     background:#1BADB4;
 }
-.skills-container ul li{
+.skills-container ul li p:hover{
     background:#EEEEEE;
     padding:2em;
     border-radius: 1em;
     margin-bottom: 1em;
+    
 
     .icon-container{
         height: 100px;
@@ -158,6 +160,7 @@ section{
 .social-footer{
     display: grid;
 }
+
 
 @media only screen and (min-width: 800px) {
     
@@ -271,6 +274,7 @@ section{
         max-width: 500px;
     }
 }
+
 
 @media only screen and (min-width: 1250px) {
     header{
