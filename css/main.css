@@ -4,6 +4,7 @@ body {
   margin: 0;
   font-family: 'poppins', Arial, Helvetica, sans-serif;
   background-color: #EEEEEE;
+  max-width:auto, 1600px;
 }
 #home-btn {
   display: block;
@@ -236,7 +237,7 @@ section {
   .skills-container ul {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (auto)[3];
+    -ms-grid-columns: (auto);
         grid-template-columns: repeat(3, auto);
     grid-gap: 1em;
   }
